@@ -1,0 +1,7 @@
+applications:
+- name: my-review
+path: target/my-reviews.jar
+memory: 1G
+instances: 1
+services:
+- mysqldb
